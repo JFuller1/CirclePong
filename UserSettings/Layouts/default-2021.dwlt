@@ -19,8 +19,8 @@ MonoBehaviour:
     width: 1600
     height: 857
   m_ShowMode: 4
-  m_Title: GitHub
-  m_RootView: {fileID: 6}
+  m_Title: Game
+  m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
@@ -33,119 +33,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 1600
-    height: 807
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 84
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1222
-    y: 0
-    width: 378
-    height: 807
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 16}
-  - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 302
-    height: 478
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 478
-    width: 1222
-    height: 329
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
-  m_Panes:
-  - {fileID: 15}
-  - {fileID: 20}
-  - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -158,7 +52,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &7
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,7 +95,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,8 +108,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 6}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1600
+    height: 807
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 7339
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
   - {fileID: 10}
-  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -225,8 +144,8 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 89
---- !u!114 &10
+  controlID: 7340
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -239,8 +158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
+  - {fileID: 8}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -250,8 +169,34 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 90
---- !u!114 &11
+  controlID: 7341
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 302
+    height: 478
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -272,14 +217,546 @@ MonoBehaviour:
     height: 478
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 12}
+  - {fileID: 15}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: AnimationWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 478
+    width: 1222
+    height: 329
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 18}
+  m_Selected: 2
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1222
+    y: 0
+    width: 378
+    height: 807
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 18}
   - {fileID: 19}
-  - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 2
+  - {fileID: 20}
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 302
+    y: 73
+    width: 918
+    height: 457
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 918, y: 436}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -459
+    m_HBaseRangeMax: 459
+    m_VBaseRangeMin: -218
+    m_VBaseRangeMax: 218
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 918
+      height: 436
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 459, y: 218}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -459
+      y: -218
+      width: 918
+      height: 436
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 918, y: 457}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 301
+    height: 457
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d4d9ffff14daffff98eeffff24fbffffcc600000da600000627f0000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 8}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 302
+    y: 73
+    width: 918
+    height: 457
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -101, y: -26}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 3
+      layout: 4
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 158.12128, y: 357.775, z: 4.811899}
+    speed: 2
+    m_Value: {x: 158.12128, y: 357.775, z: 4.811899}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 180.7938
+    speed: 2
+    m_Value: 180.7938
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -343,7 +820,175 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &13
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 551
+    width: 1221
+    height: 308
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Sprites/UI/Title
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Sprites/UI/Title
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Owner\Documents\GitHub\CirclePong
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 927e0000
+    m_LastClickedID: 32402
+    m_ExpandedIDs: 000000005661000058610000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 000000005661000058610000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 60d5ffff
+    m_LastClickedInstanceID: -10912
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300005864000064640000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 551
+    width: 1221
+    height: 308
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -373,8 +1018,49 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -2090
---- !u!114 &14
+  m_LastSelectedObjectID: -9864
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1222
+    y: 73
+    width: 377
+    height: 786
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -402,14 +1088,14 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  progressMessageClearTime: 862.3790504
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 5
   activeTab: 5
   initProjectView:
@@ -588,10 +1274,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2022-09-23T23:36:54.542-05:00
+      updatedTimeString: 2022-09-24T00:22:34.736-05:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2022-09-23T23:36:20.450-05:00
+      updatedTimeString: 2022-09-24T00:21:31.418-05:00
       cacheType: 1
     currentBranch:
       name: Olivier
@@ -621,358 +1307,16 @@ MonoBehaviour:
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
     commitBody: 
-    commitMessage: 
+    commitMessage: listin
     currentBranch: '[Olivier]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 0a1bbd2ccd5105b498631d3f33e2569a
-        - e111a768bde05104a83bffc06889d925
-        - b0c24ba427fbc4c47bcfe0cf18f1fac2
-        - 5a544b94beaf9fe4aa3bad99b1ccbf0a
-        - 5e146ed9830874d46a8176cce5d09cf2
-        - 92c23c086f574264496c5c8eba35a4c8
-        - 13bc52ca71bc4c94f94f0499f3c441c4
-        - 9aa4ec54310868a48a8c3ea83058da9e
-        - 423f7fee994bf64499beed41439c0f80
-        - be78938388bfafd4fb400bd1512ff2f8
-        - 55580faf16a6c344fa69c48c9a317133
-        - e30a2d19d46dc2344bff055aa418f155
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites\OlivierRoll
-          label: OlivierRoll
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-          label: OlivierRollAnim.anim
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-            fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-            projectPath: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-          label: RollingOlivier_0000_ezgif-frame-008.controller
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-            fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-            projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-          label: RollingOlivier_0000_ezgif-frame-008.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-            fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-            projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-          label: RollingOlivier_0001_ezgif-frame-007.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-            fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-            projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-          label: RollingOlivier_0002_ezgif-frame-006.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-            fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-            projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-          label: RollingOlivier_0003_ezgif-frame-005.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-            fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-            projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-          label: RollingOlivier_0004_ezgif-frame-004.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-            fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-            projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-          label: RollingOlivier_0005_ezgif-frame-003.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-            fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-            projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-          label: RollingOlivier_0006_ezgif-frame-002.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-            fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-            projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-          label: RollingOlivier_0007_ezgif-frame-001.png
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-            fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-            projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+        keys: []
+        values: []
       folders:
-        keys:
-        - Assets
-        - Assets\Sprites
-        - Assets\Sprites\OlivierRoll
-        - UserSettings
-        - UserSettings\Layouts
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites\OlivierRoll
-          label: OlivierRoll
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -1001,492 +1345,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Sprites
-        label: Sprites
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Sprites\OlivierRoll.meta
-        label: OlivierRoll.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll.meta
-          projectPath: Assets\Sprites\OlivierRoll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll
-        label: OlivierRoll
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-        label: OlivierRollAnim.anim
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-          projectPath: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim.meta
-        label: OlivierRollAnim.anim.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\OlivierRollAnim.anim.meta
-          projectPath: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-        label: RollingOlivier_0000_ezgif-frame-008.controller
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller.meta
-        label: RollingOlivier_0000_ezgif-frame-008.controller.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller.meta
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-        label: RollingOlivier_0000_ezgif-frame-008.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png.meta
-        label: RollingOlivier_0000_ezgif-frame-008.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png.meta
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-        label: RollingOlivier_0001_ezgif-frame-007.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png.meta
-        label: RollingOlivier_0001_ezgif-frame-007.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png.meta
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-        label: RollingOlivier_0002_ezgif-frame-006.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png.meta
-        label: RollingOlivier_0002_ezgif-frame-006.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png.meta
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-        label: RollingOlivier_0003_ezgif-frame-005.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png.meta
-        label: RollingOlivier_0003_ezgif-frame-005.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png.meta
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-        label: RollingOlivier_0004_ezgif-frame-004.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png.meta
-        label: RollingOlivier_0004_ezgif-frame-004.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png.meta
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-        label: RollingOlivier_0005_ezgif-frame-003.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png.meta
-        label: RollingOlivier_0005_ezgif-frame-003.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png.meta
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-        label: RollingOlivier_0006_ezgif-frame-002.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png.meta
-        label: RollingOlivier_0006_ezgif-frame-002.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png.meta
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-        label: RollingOlivier_0007_ezgif-frame-001.png
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png.meta
-        label: RollingOlivier_0007_ezgif-frame-001.png.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png.meta
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png.meta
-          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        label: default-2021.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\UserSettings\Layouts\default-2021.dwlt
-          projectPath: UserSettings\Layouts\default-2021.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -1506,145 +1364,13 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: Assets\Sprites\OlivierRoll.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll.meta
-      projectPath: Assets\Sprites\OlivierRoll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-      projectPath: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\OlivierRollAnim.anim.meta
-      projectPath: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\UserSettings\Layouts\default-2021.dwlt
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 22 changed files
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-09-23T23:31:28.919-05:00
+      updatedTimeString: 2022-09-24T00:22:40.609-05:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-09-23T23:35:50.873-05:00
+      updatedTimeString: 2022-09-24T00:40:25.174-05:00
       cacheType: 6
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -1664,11 +1390,10 @@ MonoBehaviour:
       description: 'made ball operate on transform based movement instead of rigid
         body movement
 
-        
 
-        also made long arm that makes me want
-        to throw up, ill probably  end up taking an actual picture of my arm to replace
-        it'
+
+        also made long arm that makes me want to throw up,
+        ill probably  end up taking an actual picture of my arm to replace it'
       timeString: 2022-09-23T22:51:51.000-05:00
       commitTimeString: 2022-09-23T22:51:51.000-05:00
       changes:
@@ -1724,7 +1449,7 @@ MonoBehaviour:
       summary: FirstGraphics
       description: 'Added hand and arm sprites to spruce things up a bit.
 
-        
+
 
         had
         to change a couple things with colliders and sizing but it should all work
@@ -5259,11 +4984,11 @@ MonoBehaviour:
         description: 'made ball operate on transform based movement instead of rigid
           body movement
 
-          
 
-          also made long arm that makes me
-          want to throw up, ill probably  end up taking an actual picture of my arm
-          to replace it'
+
+          also made long arm that makes me want to throw
+          up, ill probably  end up taking an actual picture of my arm to replace
+          it'
         timeString: 2022-09-23T22:51:51.000-05:00
         commitTimeString: 2022-09-23T22:51:51.000-05:00
         changes:
@@ -5319,7 +5044,7 @@ MonoBehaviour:
         summary: FirstGraphics
         description: 'Added hand and arm sprites to spruce things up a bit.
 
-          
+
 
           had
           to change a couple things with colliders and sizing but it should all work
@@ -8913,7 +8638,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2022-09-23T23:45:19.474-05:00
+      updatedTimeString: 2022-09-25T19:52:53.000-05:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/JFuller1/CirclePong.git
@@ -8927,7 +8652,7 @@ MonoBehaviour:
       newGitEmail: oproulx8896@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2022-09-23T23:45:25.072-05:00
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -8956,148 +8681,16 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2022-09-23T23:31:28.919-05:00
+      updatedTimeString: 2022-09-24T00:22:40.609-05:00
       cacheType: 1
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-09-23T23:36:03.099-05:00
+      updatedTimeString: 2022-09-24T00:33:31.461-05:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries:
-    - path: Assets\Sprites\OlivierRoll.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll.meta
-      projectPath: Assets\Sprites\OlivierRoll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-      projectPath: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\OlivierRollAnim.anim.meta
-      projectPath: Assets\Sprites\OlivierRoll\OlivierRollAnim.anim.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.controller.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0000_ezgif-frame-008.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0001_ezgif-frame-007.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0002_ezgif-frame-006.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0003_ezgif-frame-005.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0004_ezgif-frame-004.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0005_ezgif-frame-003.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0006_ezgif-frame-002.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png.meta
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png.meta
-      projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\UserSettings\Layouts\default-2021.dwlt
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
+    gitStatusEntries: []
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -9124,13 +8717,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-09-23T23:45:19.474-05:00
+    updatedTimeString: 2022-09-24T17:45:14.713-05:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-09-23T23:41:22.071-05:00
+    updatedTimeString: 2022-09-24T17:42:13.568-05:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-09-23T23:45:27.789-05:00
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -9149,12 +8742,12 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: 
   repositoryProgressValue: 0
-  repositoryProgressMessage: Reading locks...
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: 
---- !u!114 &15
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9162,155 +8755,15 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -185891209, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 551
-    width: 1221
-    height: 308
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SearchFilter:
-    m_NameFilter: 
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets/Sprites/OlivierRoll
-    m_Globs: []
-    m_OriginalText: 
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/Sprites/OlivierRoll
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Owner\Documents\GitHub\CirclePong
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7c610000
-    m_LastClickedID: 24956
-    m_ExpandedIDs: 000000006461000074610000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 0000000064610000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: ccf7ffff
-    m_LastClickedInstanceID: -2100
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: File History
+    m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -9322,520 +8775,300 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
---- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 73
-    width: 301
-    height: 457
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ccf7ffff
-      m_LastClickedID: 0
-      m_ExpandedIDs: fefaffff0a610000
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 302
-    y: 73
-    width: 918
-    height: 457
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData:
-    - dockPosition: 0
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -101, y: -26}
-      snapCorner: 3
-      id: Tool Settings
-      index: 0
-      layout: 1
-    - dockPosition: 0
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: -141, y: 149}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
-      id: unity-grid-and-snap-toolbar
-      index: 1
-      layout: 1
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-scene-view-toolbar
-      index: 0
-      layout: 1
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
-      id: unity-search-toolbar
-      index: 1
-      layout: 1
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Open Tile Palette
-      index: 2
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap Focus
-      index: 3
-      layout: 4
-    - dockPosition: 0
-      containerId: overlay-container--left
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-transform-toolbar
-      index: 0
-      layout: 2
-    - dockPosition: 0
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 67.5, y: 86}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Orientation
-      index: 0
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Light Settings
-      index: 0
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Camera
-      index: 1
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Cloth Constraints
-      index: 2
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Cloth Collisions
-      index: 3
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Navmesh Display
-      index: 4
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Agent Display
-      index: 5
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Obstacle Display
-      index: 6
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Occlusion Culling
-      index: 7
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Physics Debugger
-      index: 8
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Scene Visibility
-      index: 9
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Particles
-      index: 10
-      layout: 4
-  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
-  m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
-  m_SceneLighting: 1
-  m_2DMode: 1
-  m_isRotationLocked: 0
-  m_PlayAudio: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: -0.31012246, y: 0.96018904, z: 0.10136719}
-    speed: 2
-    m_Value: {x: -0.31012246, y: 0.96018904, z: 0.10136719}
-  m_RenderMode: 0
-  m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
-  m_ValidateTrueMetals: 0
-  m_DoValidateTrueMetals: 0
-  m_ExposureSliderValue: 0
-  m_SceneViewState:
-    m_AlwaysRefresh: 0
-    showFog: 1
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-    showParticleSystems: 1
-    showVisualEffectGraphs: 1
-    m_FxEnabled: 1
-  m_Grid:
-    xGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
-    yGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    zGrid:
-      m_Fade:
-        m_Target: 1
-        speed: 2
-        m_Value: 1
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
-    m_GridAxis: 1
-    m_gridOpacity: 0.5
-  m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
-  m_Size:
-    m_Target: 4.026772
-    speed: 2
-    m_Value: 4.026772
-  m_Ortho:
-    m_Target: 1
-    speed: 2
-    m_Value: 1
-  m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
-    m_SpeedMin: 0.001
-    m_SpeedMax: 2
-    m_EasingEnabled: 1
-    m_EasingDuration: 0.4
-    m_AccelerationEnabled: 1
-    m_FieldOfViewHorizontalOrVertical: 60
-    m_NearClip: 0.03
-    m_FarClip: 10000
-    m_DynamicClip: 1
-    m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_SceneVisActive: 1
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 302
-    y: 73
-    width: 918
-    height: 457
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 918, y: 436}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 1
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -459
-    m_HBaseRangeMax: 459
-    m_VBaseRangeMin: -218
-    m_VBaseRangeMax: 218
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 918
-      height: 436
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 459, y: 218}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -459
-      y: -218
-      width: 918
-      height: 436
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 918, y: 457}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 551
-    width: 1221
-    height: 308
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
+  locked: 0
+  fileHistoryView:
+    currentFileLogHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    gitFileLog:
+      path: Assets/Sprites/OlivierRoll/RollingOlivier_0007_ezgif-frame-001.png
+      logEntries:
+      - commitID: c16eb865f9b5abddfd36cffeaaa5f7c26a932c26
+        mergeA: 
+        mergeB: 
+        authorName: HeliturtleOP
+        authorEmail: oproulx8896@gmail.com
+        commitEmail: oproulx8896@gmail.com
+        commitName: HeliturtleOP
+        summary: added rolling me as ball
+        description: simply added myself doing a summersault over the ball
+        timeString: 2022-09-23T23:46:04.000-05:00
+        commitTimeString: 2022-09-23T23:46:04.000-05:00
+        changes:
+        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: c16eb865f9b5abddfd36cffeaaa5f7c26a932c26
+        mergeA: 
+        mergeB: 
+        authorName: HeliturtleOP
+        authorEmail: oproulx8896@gmail.com
+        commitEmail: oproulx8896@gmail.com
+        commitName: HeliturtleOP
+        summary: added rolling me as ball
+        description: simply added myself doing a summersault over the ball
+        timeString: 2022-09-23T23:46:04.000-05:00
+        commitTimeString: 2022-09-23T23:46:04.000-05:00
+        changes:
+        - path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys:
+        - Assets
+        - Assets\Sprites
+        - Assets\Sprites\OlivierRoll
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Sprites
+          label: Sprites
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Sprites\OlivierRoll
+          label: OlivierRoll
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Sprites
+        label: Sprites
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Sprites\OlivierRoll
+        label: OlivierRoll
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+        label: RollingOlivier_0007_ezgif-frame-001.png
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+          fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+          projectPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+    gitStatusEntries:
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\VersionControlSettings.asset
+      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\ProjectSettings\VersionControlSettings.asset
+      projectPath: ProjectSettings\VersionControlSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2021.dwlt
+      fullPath: C:\Users\Owner\Documents\GitHub\CirclePong\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 6
+    lastFileLogChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 4
+  selectedObject: {fileID: 2800000, guid: e30a2d19d46dc2344bff055aa418f155, type: 3}
+  selectedObjectAssetPath: Assets\Sprites\OlivierRoll\RollingOlivier_0007_ezgif-frame-001.png
+  selectedObjectRepositoryPath: Assets/Sprites/OlivierRoll/RollingOlivier_0007_ezgif-frame-001.png
