@@ -17,11 +17,11 @@ public class paddleController : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            motorSpeed -= 1f;
+            motorSpeed -= (1f + ((float)ScoreKeeper.score / 2f));
         } 
         else if (Input.GetMouseButton(1))
         {
-            motorSpeed += 1f;
+            motorSpeed += (1f + ((float)ScoreKeeper.score / 2f));
         } 
         else
         {
@@ -31,4 +31,5 @@ public class paddleController : MonoBehaviour
         motor.motorSpeed = motorSpeed;
         hinge.motor = motor;
     }
+
 }

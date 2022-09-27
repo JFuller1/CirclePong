@@ -25,6 +25,9 @@ public class ballController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        GameObject.Find("ScoreKeeper").GetComponent<ScoreKeeper>().IncreaseScore();
+        ballSpeed = 1f + (float)ScoreKeeper.score/2f;
+
         travelVector = collision.transform.right + new Vector3(Random.Range(-variance, variance), Random.Range(-variance, variance),0);
     }
 
