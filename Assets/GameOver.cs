@@ -47,7 +47,6 @@ public class GameOver : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("t");
         dead = true;
         egg.GetComponent<ballController>().ballSpeed = 0.5f;
     }
