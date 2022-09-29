@@ -49,6 +49,6 @@ public class GameOver : MonoBehaviour
     {
         Debug.Log("t");
         dead = true;
-        egg.GetComponent<ballController>().ballSpeed = 0.1f;
+        egg.GetComponent<ballController>().ballSpeed = 0.5f;
     }
 }
