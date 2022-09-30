@@ -7,6 +7,7 @@ public class GameOver : MonoBehaviour
     public GameObject egg;
 
     public GameObject mouth;
+    public GameObject loseScreen;
 
     bool dead = false;
 
@@ -42,6 +43,7 @@ public class GameOver : MonoBehaviour
         {
             Vector3 offScreen = new Vector2(mouth.transform.position.x, -12);
             mouth.transform.position = Vector3.Lerp(mouth.transform.position, offScreen, Time.deltaTime * 2);
+            loseScreen.SetActive(true);
         }
     }
 
